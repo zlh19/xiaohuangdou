@@ -1,0 +1,162 @@
+@import "../../public/css/mixin";
+ .tc-header {
+    position: relative;
+    text-align: center;
+    padding-top: 40rem*2/$size;
+    box-sizing: border-box;
+    height: 376rem*2/$size;
+    background: linear-gradient(-180deg, #FFEB3B 0%, #FDD835 100%);
+  }
+  
+  .tc-header .zan-img {
+    display: inline-block;
+    width: 135rem*2/$size;
+    height: 125rem*2/$size;
+    background-image:url(./imgs/zan.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  
+  .tc-header-cong {
+    font-family: PingFangSC-Medium;
+    font-size: 30rem*2/$size;
+    line-height: 42rem*2/$size;
+    color: #262628;
+    letter-spacing: 0;
+    /*text-shadow: 0 20rem*2/$size 50rem*2/$size rgba(0,0,0,0.15);*/
+  }
+  
+  .tc-header-title {
+    font-family: PingFangSC-Regular;
+    font-size: 20rem*2/$size;
+    color: #262628;
+    letter-spacing: 0;
+    /*text-shadow: 0 20rem*2/$size 50rem*2/$size rgba(0,0,0,0.15);*/
+  }
+  
+  .tc-result {
+    position: absolute;
+    bottom: 42.5rem*2/$size;
+  }
+  
+  .tc-result-num {
+    font-family: DINCondensed-Bold;
+    font-size: 30rem*2/$size;
+    color: #262628;
+    letter-spacing: -0rem*2/$size;
+    margin-bottom: 5rem*2/$size;
+  }
+  
+  .tc-result-desc {
+    font-family: PingFangSC-Regular;
+    font-size: 11rem*2/$size;
+    color: rgba(38,38,40,0.62);
+    letter-spacing: 0;
+  }
+  
+  .tc-body {
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 32rem*2/$size;
+  }
+  
+  .tc-question {
+    font-family: PingFangSC-Medium;
+    font-size: 18rem*2/$size;
+    line-height: 25rem*2/$size;
+    color: #666666;
+    letter-spacing: 0;
+    margin-bottom: 8rem*2/$size;
+  }
+  
+  .tc-tip {
+    font-family: PingFangSC-Regular;
+    font-size: 12rem*2/$size;
+    color: #999999;
+    letter-spacing: 1.2rem*2/$size;
+    line-height: 16.5rem*2/$size;
+    margin-bottom: 10rem*2/$size;
+  }
+  
+  .tc-stars {
+    text-align: center;
+    font-size: 0rem*2/$size;
+  }
+  
+  .tc-star {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .tc-star:not(:first-child) {
+    margin-left: 31.65rem*2/$size;
+  }
+  
+  .tc-emoji {
+    width: 44rem*2/$size;
+    height: 44rem*2/$size;
+    margin-bottom: 9rem*2/$size;  
+  }
+
+  .bg-1{
+    background-image:url(./imgs/emoji-a.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+
+  .bg-1.active{
+    background-image:url(./imgs/emoji-a-active.png);
+  }
+
+  .bg-2{
+    background-image:url(./imgs/emoji-d.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  .bg-2.active{
+    background-image:url(./imgs/emoji-d-active.png);
+  }
+  .bg-3{
+    background-image:url(./imgs/emoji-b.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  .bg-3.active{
+    background-image:url(./imgs/emoji-b-active.png);
+  }
+  .bg-4{
+    background-image:url(./imgs/emoji-c.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  .bg-4.active{
+    background-image:url(./imgs/emoji-c-active.png);
+  }
+
+  
+  .tc-emoji-desc {
+    font-family: PingFangSC-Regular;
+    font-size: 12rem*2/$size;
+    color: #999999;
+    letter-spacing: 0;
+  }
+  
+  .tc-button-container {
+    text-align: center;
+    padding-top: 56.5rem*2/$size;  
+    padding-bottom:20rem*2/$size;
+  }
+  
+  a.tc-button {
+    user-select: none;
+    display: inline-block;
+    background: #FFEB3B;
+    width: 180rem*2/$size;
+    text-align: center;
+    line-height: 44rem*2/$size;
+    
+    font-family: PingFangSC-Medium;
+    font-size: 18rem*2/$size;
+    color: #262628;
+    letter-spacing: -0rem*2/$size;
+  }

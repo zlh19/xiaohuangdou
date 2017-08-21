@@ -1,0 +1,50 @@
+@import "../../public/css/mixin";
+
+.main{background:#f2f2f2;}
+
+.m_list{background:#f2f2f2;padding-top:6px;}
+.m_list dt{margin-bottom:12px;}
+.m_list .p_pic{display:block;width:100%;}
+
+.p_top{background:#fff;padding:16px 0;}
+
+.p_user .p_top_user{}
+
+/*用户信息*/
+.p_user{height:30px;background:#fff;padding:0 4.3%;}
+.p_user .p_user_top{height:30px;position:relative;}
+.p_user_top .u_pic_outer{background-size:cover;background-repeat:no-repeat;position:absolute;left:0;top:50%;width:36px;height:36px;margin-top:-18px;overflow:hidden;border-radius:50%;}
+.p_user_top .u_text{position:absolute;left:46px;top:0;height:30px;}
+.p_user_top .u_text .u_name{line-height:20px;height:20px;color:#666;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.p_user_top .u_text .u_time{line-height:20px;height:20px;color:#b5b5b5;font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.p_top_pic{position:relative;overflow:hidden;background:#fff;}
+.p_top_pic .banner-img{height:710rem/$size;background-size:cover;background-repeat:no-repeat;background-position:center center;}
+
+
+
+/*其他*/
+.p_user_other{position:absolute;left:0;top:0;height:30px;box-sizing:border-box;padding-top:5px;z-index:20;}
+.p_user_other .u-user-zang i,.p_user_other .u-user-zang em{display:inline-block;vertical-align:middle;font-size:10px;color: #666666;}
+.p_user_other .u-icon-zang{margin-right:6px;width:22px;height:20px;background:url(./imgs/zang.png) no-repeat;background-size:cover;background-repeat:no-repeat;}
+.p_user_other .u-user-zang.current .u-icon-zang{background-image:url(./imgs/zang_now.png);}
+
+.p_user_other .u-user-comment i,.p_user_other .u-user-comment em{display:inline-block;vertical-align:middle;font-size:10px;color: #666666;}
+.p_user_other .u-icon-comment{margin-left:24px;margin-right:6px;width:22px;height:20px;background:url(./imgs/comment.png) no-repeat;background-size:cover;background-repeat:no-repeat;}
+
+
+
+.p_title{
+	line-height:20px;
+	font-size:14px;
+	color:#262626;
+	padding:12px 4.3% 0 4.3%;
+	background:#fff;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden; 
+}
+
+
