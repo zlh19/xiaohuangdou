@@ -59,6 +59,18 @@
             .catch((error)=>{
             
             })
+
+        axios.post('/createUser',{
+          name:'test',
+          telephone:'13738052554',
+          password:'123456'
+        })
+            .then((res)=>{
+              console.log(res)
+            })
+            .catch((error)=>{
+            
+            })
 			}
     }
   }
